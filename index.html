@@ -67,10 +67,10 @@
                // }
             }
             //ELSE exit unity webview
+        }
 
-            function OpenMultiplayer(link, val, token, bgm, sfx) {
-                window.location.href = link + '?auth=' + token + '&uuid=' + val + '&sett=' + bgm + '.' + sfx;
-            }
+        function OpenMultiplayer(link, val, token, bgm, sfx) {
+            window.location.href = link + '?auth=' + token + '&uuid=' + val + '&sett=' + bgm + '.' + sfx;
         }
 
       var container = document.querySelector("#unity-container");
